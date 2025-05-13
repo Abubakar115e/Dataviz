@@ -20,17 +20,17 @@ h1 {
 }
 
 .visualisation-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-  gap: 40px;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;        /* spacing around the whole block */
 }
 
 .flourish-embed {
   width: 100%;
-  max-width: 800px;
+  max-width: 800px;     
+  margin: 0 auto 40px; 
 }
-
 #signature {
   font-family: 'Coda', sans-serif;
   line-height: 1.6;
