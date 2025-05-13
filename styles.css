@@ -10,7 +10,7 @@ body {
 header {
   background-color: #ffffff;
   padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   text-align: center;
 }
 
@@ -21,7 +21,7 @@ h1 {
 
 .visualisation-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
   gap: 40px;
   padding: 20px;
 }
@@ -31,14 +31,28 @@ h1 {
   max-width: 800px;
 }
 
-footer {
+#signature {
+  font-family: 'Coda', sans-serif;
+  line-height: 1.6;
   text-align: center;
-  padding: 20px;
   background-color: #ffffff;
-  font-size: 0.9em;
-  border-top: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-footer p {
-  margin: 5px 0;
+#signature p {
+  font-size: 0.8em;
+  color: gray;
+  margin: 10px 0;
+}
+
+#signature table {
+  margin: 0 auto;
+  border-spacing: 20px 5px;
+}
+
+#signature td {
+  vertical-align: top;
 }

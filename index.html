@@ -1,39 +1,81 @@
-<main class="visualisation-container">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Visualisations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Coda&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Data Visualisations</h1>
+  </header>
 
-  <!-- Embedded Flourish map -->
-  <div class="flourish-embed flourish-map" data-src="story/3089468">
-    <script src="https://public.flourish.studio/resources/embed.js"></script>
-    <noscript>
-      <img
-        src="https://public.flourish.studio/story/YOUR_MAP_ID/thumbnail"
-        width="100%"
-        alt="Map visualization"
-      />
-    </noscript>
+  <main class="visualisation-container">
+    <!-- Embedded Flourish map -->
+    <div class="flourish-embed flourish-map" data-src="story/3089468">
+      <script src="https://public.flourish.studio/resources/embed.js"></script>
+      <noscript>
+        <img
+          src="https://public.flourish.studio/story/3089468/thumbnail"
+          width="100%"
+          alt="Map visualization"
+        />
+      </noscript>
+    </div>
+
+    <!-- Embedded Flourish bar chart race -->
+    <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/23030376">
+      <script src="https://public.flourish.studio/resources/embed.js"></script>
+      <noscript>
+        <img
+          src="https://public.flourish.studio/visualisation/23030376/thumbnail"
+          width="100%"
+          alt="Bar chart race visualization"
+        />
+      </noscript>
+    </div>
+
+    <!-- Embedded Flourish cards visualization -->
+    <div class="flourish-embed flourish-cards" data-src="visualisation/23152775">
+      <script src="https://public.flourish.studio/resources/embed.js"></script>
+      <noscript>
+        <img
+          src="https://public.flourish.studio/visualisation/23152775/thumbnail"
+          width="100%"
+          alt="Cards visualization"
+        />
+      </noscript>
+    </div>
+  </main>
+
+  <div id="signature">
+    <p>
+      Exam Project for Data Visualisation and Data-driven Decision Making at
+      <a href="https://itu.dk/">ITU Copenhagen</a> by:
+    </p>
+    <table>
+      <tr>
+        <td><strong>Name 1</strong></td>
+        <td><a href="mailto:email1@example.com">email1@example.com</a></td>
+      </tr>
+      <tr>
+        <td><strong>Name 2</strong></td>
+        <td><a href="mailto:email2@example.com">email2@example.com</a></td>
+      </tr>
+      <tr>
+        <td><strong>Name 3</strong></td>
+        <td><a href="mailto:email3@example.com">email3@example.com</a></td>
+      </tr>
+    </table>
+    <p>
+      GitHub repository available at
+      <a href="https://github.com/yourusername/yourrepo">/yourrepo</a>
+    </p>
+    <p>May 2025</p>
   </div>
-
-  <!-- Embedded Flourish bar chart race -->
-  <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/23030376">
-    <script src="https://public.flourish.studio/resources/embed.js"></script>
-    <noscript>
-      <img
-        src="https://public.flourish.studio/visualisation/23030376/thumbnail"
-        width="100%"
-        alt="Bar chart race visualization"
-      />
-    </noscript>
-  </div>
-
-  <!-- Embedded Flourish cards visualization -->
-  <div class="flourish-embed flourish-cards" data-src="visualisation/23152775">
-    <script src="https://public.flourish.studio/resources/embed.js"></script>
-    <noscript>
-      <img
-        src="https://public.flourish.studio/visualisation/23152775/thumbnail"
-        width="100%"
-        alt="Cards visualization"
-      />
-    </noscript>
-  </div>
-
-</main>
+</body>
+</html>
